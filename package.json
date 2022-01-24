@@ -1,0 +1,20 @@
+{
+  "name": "curso-cypress-qaninja",
+  "version": "1.0.0",
+  "description": "Curso de cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --config watchForFileChanges=false",
+    "cy:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Luiz Zanotto",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2",
+    "js-brasil": "^2.5.1"
+  }
+}
